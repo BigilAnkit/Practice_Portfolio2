@@ -1,5 +1,7 @@
+import Hero from '@/components/Hero';
 import Nav from '@/components/Nav'
 import NavMobile from '@/components/NavMobile'
+import TypeWriterEffect from '@/components/TypeWriterEffect';
 import React, { useState } from 'react'
 
 const HomePage = () => {
@@ -10,6 +12,8 @@ const HomePage = () => {
     <div className='overflow-hidden h-[2000px]'>
       <NavMobile showNav={showNav} closeNav={closeNavHandler}/>
       <Nav openNav={showNavHandler}/>
+      <Hero/>
+      <TypeWriterEffect/>
     </div>
   )
 }

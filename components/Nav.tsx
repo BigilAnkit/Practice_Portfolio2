@@ -11,10 +11,10 @@ const Nav = ({openNav}:Porps) => {
 
   useEffect(()=>{
     const handler =()=>{
-      if(window.scrollY>90){
+      if(window.scrollY>=90){
         setNavSticky(true);
       }
-      if(window.scrollY<90){
+      if(window.scrollY<=90){
         setNavSticky(false);
       }
     };
@@ -24,7 +24,7 @@ const Nav = ({openNav}:Porps) => {
   const stickyStyle = navSticky ? "bg-[#212428] shadow-gray-900 shadow-sm":"";
 
   return (
-    <div className={`fixed w-[100%] ${navSticky} z-[1000] bg-gray-800`}>
+    <div className={`fixed w-[100%] ${stickyStyle} transition-all duration-300 z-[1000]`}>
     <div className='flex items-center h-[12vh] justify-between w-[80%] mx-auto'>
         <div className='font-logo text-white text-[18px]'>
             <span className='text-[30px] md:text-[40px] text-yellow-400'>WD</span>
