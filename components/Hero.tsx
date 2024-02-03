@@ -1,5 +1,5 @@
 import React from 'react'
-import TypeWriterEffect from './TypeWriterEffect'
+import TypeWriterEffect from './Helper/TypeWriterEffect'
 import Image from 'next/image'
 
 const Hero = () => {

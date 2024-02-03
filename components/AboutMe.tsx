@@ -3,11 +3,11 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='mt-[3rem] bg-black pb-[3rem]'>
+    <div className='mt-[4rem] bg-black pb-[3rem]'>
         <div className='w-[80%] pt-[5rem] sm:pt-[7rem] md:pt-[10rem] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-[2rem]'>
             <div>
-                <p className='headin_mini'>About me</p>
-                <h1 className='headin_primary'>
+                <p className='heading_mini'>About me</p>
+                <h1 className='heading_primary'>
                     Professional <span className='text-yellow-400'> Website </span>for your busniess</h1>
                     <p className='text-[15px] mt-[1.3rem] text-white opacity-75'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dicta eius quia adipisci? Voluptatibus sit sint fuga molestiae ullam. Perspiciatis aliquid in consequuntur perferendis numquam, beatae debitis? Expedita, libero doloribus!
@@ -33,7 +33,35 @@ const AboutMe = () => {
                             <CheckIcon className='w-[2rem] h-[2rem] text-yellow-400'/>
                             <p className='text-[18px] text-white'>Ract Development</p>
                         </div>
+                </div>
+            </div>
+            <div className='lg:ml-auto'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-[2rem]'>
+                    <div className='p-6 text-center bg-yellow-500'>
+                        <p className='text-[50px] text-black font-bold'>2</p>
+                        <p className='text-[20px] text-black font-600'>
+                            Years experience
+                        </p>
                     </div>
+                    <div className='p-6 text-center bg-yellow-500'>
+                        <p className='text-[50px] text-black font-bold'>200+</p>
+                        <p className='text-[20px] text-black font-600'>
+                            Happy Client
+                        </p>
+                    </div>
+                    <div className='p-6 text-center bg-yellow-500'>
+                        <p className='text-[50px] text-black font-bold'>300+</p>
+                        <p className='text-[20px] text-black font-600'>
+                            Project Done
+                        </p>
+                    </div>
+                    <div className='p-6 text-center bg-yellow-500'>
+                        <p className='text-[50px] text-black font-bold'>3+</p>
+                        <p className='text-[20px] text-black font-600'>
+                            Award Win
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

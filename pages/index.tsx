@@ -2,7 +2,8 @@ import AboutMe from '@/components/AboutMe';
 import Hero from '@/components/Hero';
 import Nav from '@/components/Nav'
 import NavMobile from '@/components/NavMobile'
-import TypeWriterEffect from '@/components/TypeWriterEffect';
+import Services from '@/components/Services';
+import TypeWriterEffect from '@/components/Helper/TypeWriterEffect';
 import React, { useState } from 'react'
 
 const HomePage = () => {
@@ -17,6 +18,8 @@ const HomePage = () => {
       <TypeWriterEffect/>
       {/* About ME */}
       <AboutMe/>
+      {/* Service */}
+      <Services/>
     </div>
   )
 }
